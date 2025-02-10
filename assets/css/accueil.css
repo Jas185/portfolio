@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Roboto, opensans;
+    font-family: roboto , opensans;
     text-decoration: none;
 }
 
@@ -11,13 +11,13 @@
 body {
     
    background: #E3D2A4;
-    color: #e5e5e5;
+    color:black;
 }
 
 header {
     position: fixed;
     width: 100%;    
-    background: rgba(34, 34, 34, 0.95);
+    background:#E3AC59;
     
 }
 
@@ -39,7 +39,7 @@ nav {
 .logo-text {
     font-size: 1.8vw;
     font-weight: bold;
-    color: #E39559;
+    color:white;
 }
 
 #logo i {
@@ -76,7 +76,7 @@ nav ul li a::after {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background: #007ced;
+    background: #E39559;
     transition: width 0.3s ease;
 }
 /*Underline effect*/
@@ -85,7 +85,7 @@ nav ul li a:hover::after {
 }
 /*Underline effect*/
 nav ul li a:hover {
-    color: #007ced;
+    color: #E39559;
 }
 nav ul li{
     list-style: none;
@@ -106,8 +106,8 @@ nav ul li{
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid #444;
-    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
+    border: 15px solid white;
+    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.592);
 }
 
 .hero-pic img {
@@ -124,9 +124,10 @@ nav ul li{
 .hero-text {
     max-width: 500px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items:center ;
     text-align: center;
+    justify-content: space-between;
 }
 
 h1 {
@@ -134,7 +135,7 @@ h1 {
 }
 
 h2 {
-    color: #007ced;
+    color: #E39559;
     font-size: 3rem;
 }
 
@@ -153,12 +154,12 @@ h2 {
 }
 
 .btn.active {
-    border-color: #007ced;
+    border-color:#E39559;
 }
 
 .social a {
     margin: 0 10px;
-    color: #e5e5e5;
+    color: #E39559;
     font-size: 18px;
     transition: 0.5s;
 }
@@ -171,6 +172,14 @@ footer{
     display: flex;
     justify-content: center;
 }
+.mes-réalisations {
+    position: absolute;
+    top: 134px;
+    left: 399px;
+    font-size: 80px;
+    color: var(--color-sandybrown);
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
